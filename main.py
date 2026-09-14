@@ -29,7 +29,6 @@ def process_file(file_name):
                 day = int(parts[2].split("=")[1])
                 applicant = parts[1]
 
-                # This simple input format accepts names without spaces.
                 system.radicacion = system.radicar(applicant, day)
 
             elif parts[0] == "FOLIO":
